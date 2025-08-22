@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Letter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Flower rain -->
+  <div class="flower-container"></div>
+
+  <h1 class="welcome-text">Click on the envelope, I have a gift for you ❤️</h1>
+
+  <!-- Envelope -->
+  <div class="envelope" onclick="openLetter()">
+    <div class="flap"></div>
+  </div>
+
+  <!-- Overlay + Popup -->
+  <div class="overlay" id="overlay"></div>
+  <div class="letter-popup" id="letter">
+    <div class="hearts-container"></div>
+    <h2>💌 My Beloved</h2>
+    <div class="letter-content">
+      <p>
+        My love,<br><br>
+        I don’t think I’ll ever find enough words to explain how much I love you, how much I appreciate you, and how truly grateful I am for you. Every day with you feels like a blessing, and sometimes I just stop and wonder how lucky I am to have someone like you in my life. You’ve become my safe place, my biggest comfort, and my greatest joy.<br><br>
+        I love the way you care for me, the way you understand me even without words, and the way you make me feel seen, valued, and cherished. You don’t even realize how much light you bring into my life just by being yourself. I appreciate every single thing you do whether it’s the smallest gesture or the biggest sacrifice. None of it goes unnoticed, and none of it is taken for granted.<br><br>
+        When I think about you, I feel this overwhelming sense of gratitude. Grateful that I get to laugh with you, dream with you, and share life’s journey with you. Grateful that no matter how hard the world gets, I have you beside me, reminding me that I’m not alone. You give me strength, comfort, and a kind of love that I never thought I would be lucky enough to experience.<br><br>
+        if you are reading this please send me a pic of you, i miss you my baby <br>
+        Please know that I will always be here for you too. I’ll support you in your dreams, stand by you through challenges, and love you through every season of life. You are my heart, my soul, my forever person. I love you endlessly, in ways that words will never be able to fully express.<br><br>
+        Thank you for being you—so perfectly, beautifully you. I am so, so grateful for you, and I’ll keep loving you more every single day. ❤️
+      </p>
+    </div>
+    <button class="close-btn" onclick="closeLetter()">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
