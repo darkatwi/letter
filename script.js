@@ -2,7 +2,7 @@ const letter = document.getElementById('letter');
 const overlay = document.getElementById('overlay');
 const flap = document.querySelector('.flap');
 
-// Envelope open/close
+
 function openLetter() {
   flap.style.transform = 'rotateX(180deg)';
   letter.classList.add('active');
@@ -17,7 +17,7 @@ function closeLetter() {
   clearHearts();
 }
 
-// Flower rain
+
 const flowerContainer = document.querySelector('.flower-container');
 const flowers = ['🌸','🌺','💮','🌼','🌷'];
 
@@ -31,7 +31,7 @@ for(let i=0; i<30; i++){
   flowerContainer.appendChild(flower);
 }
 
-// Floating hearts inside letter
+
 function createHearts(){
   const heartsContainer = document.querySelector('.hearts-container');
   for(let i=0; i<20; i++){
@@ -47,4 +47,5 @@ function createHearts(){
 function clearHearts(){
   document.querySelector('.hearts-container').innerHTML = '';
 }
+
 
